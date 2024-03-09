@@ -1,0 +1,343 @@
+####################################
+# 创建者：v2rayse.com
+# 客户端：Clash.Meta
+# 创建时间：22-02-2024 09:31:21
+# 使用模版：V2RaySE 默认模版
+# 节点数量：1
+####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
+    - 9.9.9.9
+    #- 8.8.8.8
+    #- 223.5.5.5
+    #- 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+
+proxies:
+
+ - {name: HysteriaVPN Trojan, type: trojan,server: hysteriavpn.duckdns.org, port: 443, udp: true, password: 90ccc4b2-3fd8-4945-a6ad-9590f4a3c8cd, skip-cert-verify: true, network: tcp, sni: https://www.youtube.com/}
+ 
+ - {name: NL VLESS 1, type: vless, server: 195.123.219.39, port: 31303, uuid: 155fd124-1ad3-4a0c-fb38-aa7d20baed43, flow: "", network: tcp, udp: true}
+
+ - {name: NL Tro 1, server: 45.76.39.22, type: trojan, country: 🇳🇱NL, port: 443, udp: true, password: wkmY1R4EcP, sni: https://www.youtube.com/, skip-cert-verify: true}
+ 
+ - {name: NL Tro 2, server: 209.250.246.191, type: trojan, country: 🇳🇱NL, port: 443, udp: true, password: wkmY1R4EcP, sni: https://www.youtube.com/, skip-cert-verify: true}
+
+ - {name: NL Tro 3, server: 78.141.221.194, type: trojan, country: 🇳🇱NL, port: 443, udp: true, password: wkmY1R4EcP, sni: https://www.youtube.com/, skip-cert-verify: true}
+
+ - {name: NL Tro 4, server: 78.141.221.194, type: trojan, country: 🇳🇱 NL, port: 443, password: wkmY1R4EcP, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true}
+
+ - {name: NL Tro 5, server: 209.250.246.191, type: trojan, country: 🇳🇱 NL, port: 443, password: wkmY1R4EcP, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true}
+
+ - {"name":"NL Tro 6","server":"78.141.221.194","type":"trojan","country":"🇳🇱 NL","port":443,"password":"wkmY1R4EcP","skip-cert-verify":true,"udp":true}
+
+ - {"name":"NL SSR 1","server":"109.201.152.181","type":"ssr","country":"🇳🇱 NL","port":443,"password":"shadowsocks","cipher":"aes-128-cfb","protocol":"origin","obfs":"plain","udp":true}
+
+ - {"name":"NL Tro 7","server":"209.250.246.191","type":"trojan","country":"🇳🇱NL","port":443,"password":"wkmY1R4EcP","sni":"https://www.youtube.com/","skip-cert-verify":true,"udp":true}
+
+ - {"name":"NL Tro 8","server":"78.141.221.194","type":"trojan","country":"🇳🇱NL","port":443,"password":"wkmY1R4EcP","sni":"https://www.youtube.com/","skip-cert-verify":true,"udp":true}
+
+ - {name: NL Tro 9, server: 209.250.246.191, type: trojan, country: 🇳🇱NL, port: 443, password: wkmY1R4EcP, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true}
+
+ - {name: NL Tro 10, server: 78.141.221.194, type: trojan, country: 🇳🇱NL, port: 443, password: wkmY1R4EcP, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true}
+
+ - {name: FR Hys 1, type: hysteria2, server: 51.159.77.153, port: 33390, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, up: 11 Mbps, down: 55 Mbps, fast-open: true, udp: true}
+ 
+ - {name: FR Hys 2, type: hysteria2, server: 62.210.103.0, port: 22483, password: dongtaiwang.com, fast-open: true, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true}
+
+ - {name: FR Hys 3, type: hysteria2, server: 62.210.103.0, port: 22483, password: dongtaiwang.com, fast-open: true, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true} 
+
+ - {name: FR Hys 4, type: hysteria2, server: 51.159.77.198, port: 29277, password: dongtaiwang.com, fast-open: true, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true}
+ 
+ - {name: FR Hys 5, server: 62.210.103.0, type: hysteria2, port: 22483, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, fast-open: true, udp: true}
+
+ - {name: FR Hys 6, server: 62.210.103.0, type: hysteria2, country: 🇫🇷FR, port: 22483, udp: true, password: dongtaiwang.com, sni : https://www.youtube.com/, skip-cert-verify: true, fast-open: true}
+
+ - {name: FR Hys 7, server: 51.158.54.46, type: hysteria2, country: 🇫🇷FR, port: 44550, udp: true, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, fast-open: true}
+
+ - {name: FR Hys 8, server: 51.159.77.153, type: hysteria2, country: 🇫🇷FR, port: 33390, udp: true, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, fast-open: true}
+
+
+
+# - {name: 油管绵阿羊_United States_hy2_1, type: hysteria2, server: 64.110.25.11, port: 33337, password: dongtaiwang.com, fast-open: true, sni: www.bing.com, skip-cert-verify: true}
+
+
+  
+
+proxy-groups:
+ - name: System
+   type: select
+   proxies:
+    - HysteriaVPN Trojan
+    #- HysteriaVPN VLESS
+    - DIRECT
+    - NL Tro 1
+    - NL Tro 2
+    - NL Tro 3
+    - NL Tro 4
+    - NL Tro 5
+    - NL Tro 6
+    - NL Tro 7
+    - NL Tro 8
+    - NL Tro 9
+    - NL Tro 10
+    - NL SSR 1 
+    - FR Hys 1
+    - FR Hys 2
+    - FR Hys 3
+    - FR Hys 4
+    - FR Hys 5
+    - FR Hys 6
+    - FR Hys 7
+    - FR Hys 8
+
+ - name: BDO
+   type: select
+   proxies:
+    - HysteriaVPN Trojan
+    #- HysteriaVPN VLESS
+    - DIRECT
+    - NL VLESS 1
+    - NL Tro 1
+    - NL Tro 2
+    - NL Tro 3
+    - NL Tro 4
+    - NL Tro 5
+    - NL Tro 6
+    - NL Tro 7
+    - NL Tro 8
+    - NL Tro 9
+    - NL Tro 10
+    - NL SSR 1 
+    - FR Hys 1
+    - FR Hys 2
+    - FR Hys 3
+    - FR Hys 4
+    - FR Hys 5
+    - FR Hys 6
+    - FR Hys 7
+    - FR Hys 8
+
+    
+    
+
+ - name: TS
+   type: select
+   proxies:
+    - HysteriaVPN Trojan
+    #- HysteriaVPN VLESS
+    - DIRECT
+    - NL VLESS 1
+    - NL Tro 1
+    - NL Tro 2
+    - NL Tro 3
+    - NL Tro 4
+    - NL Tro 5
+    - NL Tro 6
+    - NL Tro 7
+    - NL Tro 8
+    - NL Tro 9
+    - NL Tro 10
+    - NL SSR 1 
+    - FR Hys 1
+    - FR Hys 2
+    - FR Hys 3
+    - FR Hys 4
+    - FR Hys 5
+    - FR Hys 6
+    - FR Hys 7
+    - FR Hys 8
+
+ - name: Brave
+   type: select
+   proxies:
+    - HysteriaVPN Trojan
+    #- HysteriaVPN VLESS
+    - DIRECT
+    - NL VLESS 1
+    - NL Tro 1
+    - NL Tro 2
+    - NL Tro 3
+    - NL Tro 4
+    - NL Tro 5
+    - NL Tro 6
+    - NL Tro 7
+    - NL Tro 8
+    - NL Tro 9
+    - NL Tro 10
+    - NL SSR 1 
+    - FR Hys 1
+    - FR Hys 2
+    - FR Hys 3
+    - FR Hys 4
+    - FR Hys 5
+    - FR Hys 6
+    - FR Hys 7
+    - FR Hys 8
+
+ - name: BDO Launcher
+   type: select
+   proxies:
+    - HysteriaVPN Trojan
+    #- HysteriaVPN VLESS
+    - DIRECT
+    - NL VLESS 1
+    - NL Tro 1
+    - NL Tro 2
+    - NL Tro 3
+    - NL Tro 4
+    - NL Tro 5
+    - NL Tro 6
+    - NL Tro 7
+    - NL Tro 8
+    - NL Tro 9
+    - NL Tro 10
+    - NL SSR 1 
+    - FR Hys 1
+    - FR Hys 2
+    - FR Hys 3
+    - FR Hys 4
+    - FR Hys 5
+    - FR Hys 6
+    - FR Hys 7
+    - FR Hys 8
+
+ - name: Discord
+   type: select
+   proxies:
+    - HysteriaVPN Trojan
+    #- HysteriaVPN VLESS
+    - DIRECT
+    - NL VLESS 1
+    - NL Tro 1
+    - NL Tro 2
+    - NL Tro 3
+    - NL Tro 4
+    - NL Tro 5
+    - NL Tro 6
+    - NL Tro 7
+    - NL Tro 8
+    - NL Tro 9
+    - NL Tro 10
+    - NL SSR 1 
+    - FR Hys 1
+    - FR Hys 2
+    - FR Hys 3
+    - FR Hys 4
+    - FR Hys 5
+    - FR Hys 6
+    - FR Hys 7
+    - FR Hys 8
+
+ - name: Spotify
+   type: select
+   proxies:
+    - HysteriaVPN Trojan
+    #- HysteriaVPN VLESS
+    - DIRECT
+    - NL VLESS 1
+    - NL Tro 1
+    - NL Tro 2
+    - NL Tro 3
+    - NL Tro 4
+    - NL Tro 5
+    - NL Tro 6
+    - NL Tro 7
+    - NL Tro 8
+    - NL Tro 9
+    - NL Tro 10
+    - NL SSR 1 
+    - FR Hys 1
+    - FR Hys 2
+    - FR Hys 3
+    - FR Hys 4
+    - FR Hys 5
+    - FR Hys 6
+    - FR Hys 7
+    - FR Hys 8
+    
+
+rules: 
+ - DOMAIN-SUFFIX,reddit.com,DIRECT
+ - PROCESS-NAME,BlackDesert64.exe,BDO
+ - PROCESS-NAME,CoherentUI_Host.exe,BDO
+ - PROCESS-NAME,BlackDesertLauncher.exe,BDO Launcher
+ - PROCESS-NAME,ts3client_win64.exe,TS
+ - PROCESS-NAME,brave.exe,Brave
+ - PROCESS-NAME,Discord.exe,Discord
+ - PROCESS-NAME,Spotify.exe,Spotify
+ - IP-CIDR,0.0.0.0/0,System
