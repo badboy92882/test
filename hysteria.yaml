@@ -112,16 +112,14 @@ proxies:
  - {name: FR Hys 2, type: hysteria2, server: 62.210.103.0, port: 22483, password: dongtaiwang.com, fast-open: true, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true, up: 20 Mbps, down: 100 Mbps}
 
  - {name: FR Hys 3, type: hysteria2, server: 62.210.103.0, port: 22483, password: dongtaiwang.com, fast-open: true, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true, up: 20 Mbps, down: 100 Mbps} 
-
- - {name: FR Hys 4, type: hysteria2, server: 51.159.77.198, port: 29277, password: dongtaiwang.com, fast-open: true, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true, up: 20 Mbps, down: 100 Mbps}
  
- - {name: FR Hys 5, server: 62.210.103.0, type: hysteria2, port: 22483, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, fast-open: true, udp: true, up: 20 Mbps, down: 100 Mbps}
+ - {name: FR Hys 4, server: 62.210.103.0, type: hysteria2, port: 22483, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, fast-open: true, udp: true, up: 20 Mbps, down: 100 Mbps}
 
- - {name: FR Hys 6, server: 62.210.103.0, type: hysteria2, country: 🇫🇷FR, port: 22483, udp: true, password: dongtaiwang.com, sni : https://www.youtube.com/, skip-cert-verify: true, fast-open: true, up: 20 Mbps, down: 100 Mbps}
+ - {name: FR Hys 5, server: 62.210.103.0, type: hysteria2, country: 🇫🇷FR, port: 22483, udp: true, password: dongtaiwang.com, sni : https://www.youtube.com/, skip-cert-verify: true, fast-open: true, up: 20 Mbps, down: 100 Mbps}
 
- - {name: FR Hys 7, server: 51.158.54.46, type: hysteria2, country: 🇫🇷FR, port: 44550, udp: true, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, fast-open: true, up: 20 Mbps, down: 100 Mbps}
+ - {name: FR Hys 6, server: 51.158.54.46, type: hysteria2, country: 🇫🇷FR, port: 44550, udp: true, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, fast-open: true, up: 20 Mbps, down: 100 Mbps}
 
- - {name: FR Hys 8, server: 51.159.77.153, type: hysteria2, country: 🇫🇷FR, port: 33390, udp: true, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, fast-open: true, up: 20 Mbps, down: 90 Mbps}
+ - {name: FR Hys 7, server: 51.159.77.153, type: hysteria2, country: 🇫🇷FR, port: 33390, udp: true, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, fast-open: true, up: 20 Mbps, down: 90 Mbps}
 
 
 
