@@ -97,7 +97,7 @@ proxies:
 
  - {name: NL Tro 6, server: 209.250.246.191, type: trojan, country: 🇳🇱 NL, port: 443, password: wkmY1R4EcP, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true}
 
- - {"name":"NL Tro 6","server":"78.141.221.194","type":"trojan","country":"🇳🇱 NL","port":443,"password":"wkmY1R4EcP","skip-cert-verify":true,"udp":true}
+ #- {"name":"NL Tro 6","server":"78.141.221.194","type":"trojan","country":"🇳🇱 NL","port":443,"password":"wkmY1R4EcP","skip-cert-verify":true,"udp":true}
 
  - {"name":"NL SSR 1","server":"109.201.152.181","type":"ssr","country":"🇳🇱 NL","port":443,"password":"shadowsocks","cipher":"aes-128-cfb","protocol":"origin","obfs":"plain","udp":true}
 
