@@ -164,6 +164,9 @@ proxies:
  - {"name":"🔒 TR-TCP-NA 🇳🇱 NL-185.236.233.111:2053 📡 PING-101.70-MS","type":"trojan","server":"185.236.233.111","port":2053,"udp":true,"password":"ba74833c-8c0f-4dcd-8cbc-13e3c32d3765","sni":"ftp.debian.org","skip-cert-verify":true,"network":"tcp"}
  - {"name":"🔒 TR-GRPC-NA 🇳🇱 NL-188.114.98.0:443 📡 PING-002.62-MS","type":"trojan","server":"188.114.98.0","port":443,"udp":true,"password":"01596265-168b-46a7-bcb7-25662c7a9546","sni":"hdfy7c1.foriran2.eu.org","skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"fYn1ncaQMA1foaK1hpquM"}}
 
+
+ - {"name":"test","type":"trojan","server":"142.93.226.128","port":443,"udp":true,"password":"6eca62bd-4993-40f6-b696-81e2e9131409","skip-cert-verify":true}
+
 proxy-groups:
  - name: System
    type: select
