@@ -85,7 +85,7 @@ proxies:
  
  - {name: NL VLESS 1, type: vless, server: 195.123.219.39, port: 31303, uuid: 155fd124-1ad3-4a0c-fb38-aa7d20baed43, flow: "", network: tcp, udp: true}
 
- - {name: NL Tro 1, type: trojan, server: 142.93.226.128, port: 443, udp: true, password: 6eca62bd-4993-40f6-b696-81e2e9131409, skip-cert-verify: true}
+ - {name: NL Tro 1, type: trojan, server: 142.93.226.128, port: 443, udp: true, password: 6eca62bd-4993-40f6-b696-81e2e9131409, skip-cert-verify: true, flow: "", network: tcp}
 
  - {name: NL Tro 2, server: 45.76.39.22, type: trojan, country: 🇳🇱NL, port: 443, udp: true, password: wkmY1R4EcP, sni: https://www.youtube.com/, skip-cert-verify: true}
  
