@@ -91,7 +91,7 @@ proxies:
 
  - {name: NL Tro 4, type: trojan, server: 188.119.112.242, port: 443, udp: true, password: dcd73a21-d06e-40a8-b57d-711498b36a79, skip-cert-verify: true}
 
-# SS
+ # SS
 
  - {name: NL SSR 1, server: 109.201.152.181, type: ssr, country: 🇳🇱 NL, port: 443, password: shadowsocks, cipher: aes-128-cfb, protocol: origin, obfs: plain, udp: true}
 
@@ -103,7 +103,7 @@ proxies:
 
  - {name: NL SS 4, type : ss, server: 89.19.216.18, port: 8388, password: NC7jORVNrruV/+3+PwOJrnnOeG7n75X1, cipher: chacha20-ietf-poly1305, udp: true}
 
-# Hysteria2
+ # Hysteria2
 
  - {name: FR Hys 1, type: hysteria2, server: 51.159.77.153, port: 33390, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, up: 20 Mbps, down: 90 Mbps, fast-open: true, udp: true}
  
@@ -126,7 +126,7 @@ proxies:
  - {name: FR Hys 10, type: hysteria2, server: 51.158.54.46, port: 44550, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true, fast-open: true, up: 20 Mbps, down: 90 Mbps}
 
  
-# VLESS
+ # VLESS
 
  - {name: NL VLESS 1, type: vless, server: 142.93.226.128, port: 443, uuid: 19935d8b-6fae-4afa-9632-c3999b83de90, tls: true, servername: nl2-full.privateip.net, network: ws, ws-opts: {"path":"/VLESS"}, udp: true}
  - {name: NL VLESS 2, type: vless, server: 142.93.226.128, port: 2003, uuid: 19935d8b-6fae-4afa-9632-c3999b83de90, tls: true, servername: nl2-full.privateip.net, network: grpc, grpc-opts: {"grpc-service-name":"GRPC"}, udp: true}
