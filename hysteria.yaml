@@ -83,13 +83,15 @@ proxies:
 
  # Trojan
  
- - {name: NL Tro 1, type: trojan, server: 142.93.226.128, port: 443, udp: true, password: 6eca62bd-4993-40f6-b696-81e2e9131409, skip-cert-verify: true, flow: "", network: tcp}
+ - {name: NL Tro 1, type: trojan, server: 142.93.226.128, port: 443, udp: true, password: 6eca62bd-4993-40f6-b696-81e2e9131409, skip-cert-verify: true, flow: "", network: tcp, sni: https://www.youtube.com/}
 
- - {name: NL Tro 2, type: trojan, server: 142.93.226.128, port: 443, udp: true, password: 6eca62bd-4993-40f6-b696-81e2e9131409, skip-cert-verify: true}
+ - {name: NL Tro 2, type: trojan, server: 142.93.226.128, port: 443, udp: true, password: 6eca62bd-4993-40f6-b696-81e2e9131409, skip-cert-verify: true, sni: https://www.youtube.com/}
 
- - {name: NL Tro 3, type: trojan, server: 188.119.112.242, port: 443, udp: true, password: dcd73a21-d06e-40a8-b57d-711498b36a79, skip-cert-verify: true}
+ - {name: NL Tro 3, type: trojan, server: 188.119.112.242, port: 443, udp: true, password: dcd73a21-d06e-40a8-b57d-711498b36a79, skip-cert-verify: true, sni: https://www.youtube.com/}
 
- - {name: NL Tro 4, type: trojan, server: 188.119.112.242, port: 443, udp: true, password: dcd73a21-d06e-40a8-b57d-711498b36a79, skip-cert-verify: true}
+ - {name: NL Tro 4, type: trojan, server: 188.119.112.242, port: 443, udp: true, password: dcd73a21-d06e-40a8-b57d-711498b36a79, skip-cert-verify: true, sni: https://www.youtube.com/}
+
+ - {name: FR Tro 1, type: trojan, server: fr-full.privateip.net, port: 443, udp: true, password: ac732478-e533-4ec6-96f5-632fdc51278c, skip-cert-verify: true, network: tcp, sni: https://www.youtube.com/}
 
  # SS
 
