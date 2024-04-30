@@ -127,8 +127,11 @@ proxies:
  # VLESS
 
  - {name: NL VLESS 1, type: vless, server: 142.93.226.128, port: 443, uuid: 19935d8b-6fae-4afa-9632-c3999b83de90, tls: true, servername: nl2-full.privateip.net, network: ws, ws-opts: {"path":"/VLESS"}, udp: true}
+ 
  - {name: NL VLESS 2, type: vless, server: 142.93.226.128, port: 2003, uuid: 19935d8b-6fae-4afa-9632-c3999b83de90, tls: true, servername: nl2-full.privateip.net, network: grpc, grpc-opts: {"grpc-service-name":"GRPC"}, udp: true}
+ 
  - {name: NL VLESS 3, type: vless, server: 188.114.96.3, port: 8880, uuid: 91d9b8d8-2aab-4e1a-9573-0d59e9cd7f8e, udp: true, tls: false, servername: falcunargo-channel.be3374a836.workers.Dev, network: ws, ws-opts: {path: /?ed=2048, headers: {host: falcunargo-channel.be3374a836.workers.Dev}}}
+ 
  - {name: NL VLESS 4, type: vless, server: 188.114.97.3, port: 443, uuid: 1ea4fa2c-392a-4e51-ac68-c9bda2603c3e, tls: true, servername: pPal-3.gabrIELLa-SiMoNIs-DDS.WOrkeRS.DEv, network: ws, ws-opts: {path: /X6_lhG-gH9Q26_ws?ed=2048, headers: {host: pPal-3.gabrIELLa-SiMoNIs-DDS.WOrkeRS.DEv}}, alpn: ["h2","http/1.1"], client-fingerprint: randomized, udp: true}
 
 
