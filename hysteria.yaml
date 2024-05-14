@@ -90,11 +90,13 @@ proxies:
 
  - {name: FR Tro 1, type: trojan, server: fr-full.privateip.net, port: 443, udp: true, password: ac732478-e533-4ec6-96f5-632fdc51278c, skip-cert-verify: true, network: tcp, sni: https://www.youtube.com/}
 
- - {name: GB Tro 1, type: trojan, server: 104.16.159.6, port: 443, udp: true, password: 669d0ac7b5b64ebbb1abb75d5d540a5c, sni: https://www.youtube.com/, skip-cert-verify: true, network: ws, ws-opts: {path: /6b777a91,headers: {host: bangladeshipatri.com}}}
-
- - {name: GB Tro 2, type: trojan, server: 104.16.159.4, port: 443, udp: true, password: b4e8771997c94732acbc9ec4d19c2589, sni: https://www.youtube.com/, skip-cert-verify: true, network: ws, ws-opts: {path: /6b777a91, headers: {host:bangladeshipatri.com}}}
+ - {"name":"GB Tro 1","type":"trojan","server":"104.16.159.6","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
  
- - {name: GB Tro 3, type: trojan, server: 104.17.147.77, port: 443, udp: true, password: 71409d3e488548e8bb076d229778f008, sni: https://www.youtube.com/, skip-cert-verify: true, network: ws, ws-opts: {path: /6b777a91, headers: {host:bangladeshipatri.com}}}
+ - {"name":"GB Tro 2","type":"trojan","server":"104.16.159.4","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+ 
+ - {"name":"GB Tro 3","type":"trojan","server":"104.17.147.77","port":443,"udp":true,"password":"71409d3e488548e8bb076d229778f008","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+
+
 
 
 
@@ -152,6 +154,9 @@ proxy-groups:
     - NL Tro 1
     - NL Tro 2
     - FR Tro 1
+    - GB Tro 1
+    - GB Tro 2
+    - GB Tro 3
     
     - NL SSR 1
     - NL SS 1
@@ -182,6 +187,9 @@ proxy-groups:
     - NL Tro 1
     - NL Tro 2
     - FR Tro 1
+    - GB Tro 1
+    - GB Tro 2
+    - GB Tro 3
     
     - NL SSR 1
     - NL SS 1
@@ -212,6 +220,9 @@ proxy-groups:
     - NL Tro 1
     - NL Tro 2
     - FR Tro 1
+    - GB Tro 1
+    - GB Tro 2
+    - GB Tro 3
     
     - NL SSR 1
     - NL SS 1
@@ -242,6 +253,9 @@ proxy-groups:
     - NL Tro 1
     - NL Tro 2
     - FR Tro 1
+    - GB Tro 1
+    - GB Tro 2
+    - GB Tro 3
     
     - NL SSR 1
     - NL SS 1
@@ -272,6 +286,9 @@ proxy-groups:
     - NL Tro 1
     - NL Tro 2
     - FR Tro 1
+    - GB Tro 1
+    - GB Tro 2
+    - GB Tro 3
     
     - NL SSR 1
     - NL SS 1
@@ -302,6 +319,9 @@ proxy-groups:
     - NL Tro 1
     - NL Tro 2
     - FR Tro 1
+    - GB Tro 1
+    - GB Tro 2
+    - GB Tro 3
     
     - NL SSR 1
     - NL SS 1
@@ -332,6 +352,9 @@ proxy-groups:
     - NL Tro 1
     - NL Tro 2
     - FR Tro 1
+    - GB Tro 1
+    - GB Tro 2
+    - GB Tro 3
     
     - NL SSR 1
     - NL SS 1
