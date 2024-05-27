@@ -182,7 +182,7 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	- DE Tro 1
+    - DE Tro 1
     - DE Tro 2
     - GB Tro 1
     - GB Tro 2
@@ -231,7 +231,7 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	- DE Tro 1
+    - DE Tro 1
     - DE Tro 2
     - GB Tro 1
     - GB Tro 2
@@ -280,7 +280,7 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	- DE Tro 1
+    - DE Tro 1
     - DE Tro 2
     - GB Tro 1
     - GB Tro 2
@@ -329,7 +329,7 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	- DE Tro 1
+    - DE Tro 1
     - DE Tro 2
     - GB Tro 1
     - GB Tro 2
@@ -378,7 +378,7 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	- DE Tro 1
+    - DE Tro 1
     - DE Tro 2
     - GB Tro 1
     - GB Tro 2
@@ -428,7 +428,7 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	- DE Tro 1
+    - DE Tro 1
     - DE Tro 2
     - GB Tro 1
     - GB Tro 2
@@ -477,7 +477,7 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	- DE Tro 1
+    - DE Tro 1
     - DE Tro 2
     - GB Tro 1
     - GB Tro 2
@@ -526,7 +526,7 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	- DE Tro 1
+    - DE Tro 1
     - DE Tro 2
     - GB Tro 1
     - GB Tro 2
