@@ -110,11 +110,11 @@ proxies:
 
  - {name: NL SS 1, type: ss, server: 109.201.152.181, port: 443, password: shadowsocks, cipher: aes-128-cfb, udp: true}
   
- - {name: NL SS 3, type: ss, server: 185.229.65.157, port: 8234, password: u6RYZyNId5RmoWTNTum0nz, cipher: chacha20-ietf-poly1305, udp: true}
+ - {name: NL SS 2, type: ss, server: 185.229.65.157, port: 8234, password: u6RYZyNId5RmoWTNTum0nz, cipher: chacha20-ietf-poly1305, udp: true}
 
- - {name: NL SS 4, type : ss, server: 89.19.216.18, port: 8388, password: NC7jORVNrruV/+3+PwOJrnnOeG7n75X1, cipher: chacha20-ietf-poly1305, udp: true}
+ - {name: NL SS 3, type : ss, server: 89.19.216.18, port: 8388, password: NC7jORVNrruV/+3+PwOJrnnOeG7n75X1, cipher: chacha20-ietf-poly1305, udp: true}
  
- - {name: NL SS 5, server: 212.118.42.181, port: 9260, type: ss, cipher: 2022-blake3-aes-256-gcm, password: "X0xJs7Bn4yXxePbQhfsKqc0CiAi5a7tcV6GFPCyYWn4=:LiWM+H+SWMrNnYZiOjpmOzWMW0BMYCBrLC57O5Ub+Ns=", udp: true}
+ - {name: NL SS 4, server: 212.118.42.181, port: 9260, type: ss, cipher: 2022-blake3-aes-256-gcm, password: "X0xJs7Bn4yXxePbQhfsKqc0CiAi5a7tcV6GFPCyYWn4=:LiWM+H+SWMrNnYZiOjpmOzWMW0BMYCBrLC57O5Ub+Ns=", udp: true}
  
  - {name: FR SS 1, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
  
@@ -196,7 +196,6 @@ proxy-groups:
     - NL SS 2
     - NL SS 3
     - NL SS 4
-    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -245,7 +244,6 @@ proxy-groups:
     - NL SS 2
     - NL SS 3
     - NL SS 4
-    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -294,7 +292,6 @@ proxy-groups:
     - NL SS 2
     - NL SS 3
     - NL SS 4
-    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -343,7 +340,6 @@ proxy-groups:
     - NL SS 2
     - NL SS 3
     - NL SS 4
-    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -373,7 +369,7 @@ proxy-groups:
     - FR Hys 10
 
     - NL VMESS 1
-	
+    
  - name: Gaming
    type: select
    proxies:
@@ -392,7 +388,6 @@ proxy-groups:
     - NL SS 2
     - NL SS 3
     - NL SS 4
-    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -442,7 +437,6 @@ proxy-groups:
     - NL SS 2
     - NL SS 3
     - NL SS 4
-    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -491,7 +485,6 @@ proxy-groups:
     - NL SS 2
     - NL SS 3
     - NL SS 4
-    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -540,7 +533,6 @@ proxy-groups:
     - NL SS 2
     - NL SS 3
     - NL SS 4
-    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -582,7 +574,7 @@ rules:
  - PROCESS-NAME,brave.exe,Brave
  - PROCESS-NAME,UbisoftGameLauncher.exe,Gaming
  - PROCESS-NAME,XDefiant.exe,Gaming
- - PROCESS-NAME,,Gaming
+ #- PROCESS-NAME,,Gaming
  - PROCESS-NAME,Discord.exe,Discord
  - PROCESS-NAME,Spotify.exe,Spotify
  - IP-CIDR,0.0.0.0/0,System
