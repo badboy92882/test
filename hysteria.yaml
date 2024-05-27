@@ -83,12 +83,13 @@ dns:
 proxies:
 
  # Trojan
+ 
+ - {name: NL Tro 1, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: true, udp: true}
 
- - {name: NL Tro 1, type: trojan, server: 188.119.112.242, port: 443, udp: true, password: dcd73a21-d06e-40a8-b57d-711498b36a79, skip-cert-verify: true, sni: https://www.youtube.com/}
+ - {name: DE Tro 1, server: 3.78.31.110, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+ 
+ - {name: DE Tro 2, server: 18.192.44.234, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 
- - {name: NL Tro 2, type: trojan, server: 188.119.112.242, port: 443, udp: true, password: dcd73a21-d06e-40a8-b57d-711498b36a79, skip-cert-verify: true, sni: https://www.youtube.com/}
-
- - {name: FR Tro 1, type: trojan, server: fr-full.privateip.net, port: 443, udp: true, password: ac732478-e533-4ec6-96f5-632fdc51278c, skip-cert-verify: true, network: tcp, sni: https://www.youtube.com/}
 
  - {"name":"GB Tro 1","type":"trojan","server":"104.16.159.6","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
  
@@ -96,7 +97,9 @@ proxies:
  
  - {"name":"GB Tro 3","type":"trojan","server":"104.17.147.77","port":443,"udp":true,"password":"71409d3e488548e8bb076d229778f008","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
 
-
+ - {name: GB Tro 4, server: 35.178.70.239, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+ 
+ - {name: GB Tro 5, server: 18.175.98.5, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
 
 
 
@@ -105,12 +108,45 @@ proxies:
  - {name: NL SSR 1, server: 109.201.152.181, type: ssr, country: 🇳🇱 NL, port: 443, password: shadowsocks, cipher: aes-128-cfb, protocol: origin, obfs: plain, udp: true}
 
  - {name: NL SS 1, type: ss, server: 109.201.152.181, port: 443, password: shadowsocks, cipher: aes-128-cfb, udp: true}
- 
- - {name: NL SS 2, type: ss, server: 109.107.172.30, port: 28190, password: 1f8jdOIKkxRWMUeOfXPeo8, cipher: chacha20-ietf-poly1305, udp: true}
- 
+  
  - {name: NL SS 3, type: ss, server: 185.229.65.157, port: 8234, password: u6RYZyNId5RmoWTNTum0nz, cipher: chacha20-ietf-poly1305, udp: true}
 
  - {name: NL SS 4, type : ss, server: 89.19.216.18, port: 8388, password: NC7jORVNrruV/+3+PwOJrnnOeG7n75X1, cipher: chacha20-ietf-poly1305, udp: true}
+ 
+ - {name: NL SS 5, server: 212.118.42.181, port: 9260, type: ss, cipher: 2022-blake3-aes-256-gcm, password: "X0xJs7Bn4yXxePbQhfsKqc0CiAi5a7tcV6GFPCyYWn4=:LiWM+H+SWMrNnYZiOjpmOzWMW0BMYCBrLC57O5Ub+Ns=", udp: true}
+ 
+ - {name: FR SS 1, server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+ 
+ - {name: FR SS 2, server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+ 
+ - {name: FR SS 3, server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+ 
+ - {name: FR SS 4, server: 149.202.82.172, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+ 
+ - {name: FR SS 5, server: 149.202.82.172, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+ 
+ - {name: FR SS 6, server: 149.202.82.172, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+ 
+ - {name: FR SS 7, server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+ 
+ - {name: FR SS 8, server: 94.228.162.91, port: 2060, type: ss, cipher: aes-128-gcm, password: W1C2PkLXX9Cy9FVC-LvJVA, udp: true}
+ 
+ - {name: FR SS 9, server: 94.228.162.91, port: 2060, type: ss, cipher: aes-128-gcm, password: W1C2PkLXX9Cy9FVC-LvJVA, udp: true}
+
+ - {name: GB SS 1, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+ 
+ - {name: GB SS 2, server: 212.102.53.80, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+ 
+ - {name: GB SS 3, server: 212.102.53.195, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+ 
+ - {name: GB SS 4, server: 212.102.53.193, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+ 
+ - {name: GB SS 5, server: 52.151.99.42, port: 58939, type: ss, cipher: chacha20-ietf-poly1305, password: jha5ZXvI7J4CkWQn4iB3AF, udp: true}
+ 
+ - {name: GB SS 6, server: 51.145.8.235, port: 9515, type: ss, cipher: chacha20-ietf-poly1305, password: c3C4Su5fNinMseCMGs3s1d, udp: true}
+ 
+ - {name: GB SS 7, server: 51.145.96.134, port: 18869, type: ss, cipher: chacha20-ietf-poly1305, password: V8QywnpW9gaAwJfzkStkVp, udp: true}
+
 
  # Hysteria2
 
@@ -135,15 +171,9 @@ proxies:
  - {name: FR Hys 10, type: hysteria2, server: 51.158.54.46, port: 44550, password: dongtaiwang.com, sni: https://www.youtube.com/, skip-cert-verify: true, udp: true, fast-open: true, up: 20 Mbps, down: 90 Mbps}
 
  
- # VLESS
+ # VMESS
 
- - {name: NL VLESS 1, type: vless, server: 142.93.226.128, port: 443, uuid: 19935d8b-6fae-4afa-9632-c3999b83de90, tls: true, servername: nl2-full.privateip.net, network: ws, ws-opts: {"path":"/VLESS"}, udp: true}
- 
- - {name: NL VLESS 2, type: vless, server: 142.93.226.128, port: 2003, uuid: 19935d8b-6fae-4afa-9632-c3999b83de90, tls: true, servername: nl2-full.privateip.net, network: grpc, grpc-opts: {"grpc-service-name":"GRPC"}, udp: true}
- 
- - {name: NL VLESS 3, type: vless, server: 188.114.96.3, port: 8880, uuid: 91d9b8d8-2aab-4e1a-9573-0d59e9cd7f8e, udp: true, tls: false, servername: falcunargo-channel.be3374a836.workers.Dev, network: ws, ws-opts: {path: /?ed=2048, headers: {host: falcunargo-channel.be3374a836.workers.Dev}}}
- 
- - {name: NL VLESS 4, type: vless, server: 188.114.97.3, port: 443, uuid: 1ea4fa2c-392a-4e51-ac68-c9bda2603c3e, tls: true, servername: pPal-3.gabrIELLa-SiMoNIs-DDS.WOrkeRS.DEv, network: ws, ws-opts: {path: /X6_lhG-gH9Q26_ws?ed=2048, headers: {host: pPal-3.gabrIELLa-SiMoNIs-DDS.WOrkeRS.DEv}}, alpn: ["h2","http/1.1"], client-fingerprint: randomized, udp: true}
+- {name: NL VMESS 1, server: 103.214.68.57, port: 10001, type: vmess, uuid: ebca5f68-bf59-4081-e658-f158839c2f5c, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: true, ws-headers: {Host: 103.214.68.57}, udp: true}
 
 
 proxy-groups:
@@ -152,17 +182,36 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-    - NL Tro 2
-    - FR Tro 1
+	- DE Tro 1
+    - DE Tro 2
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
+	- GB Tro 4
+	- GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
+	- NL SS 5
+	- FR SS 1
+	- FR SS 2
+	- FR SS 3
+	- FR SS 4
+	- FR SS 5
+	- FR SS 6
+	- FR SS 7
+	- FR SS 8
+	- FR SS 9
+	- GB SS 1
+	- GB SS 2
+	- GB SS 3
+	- GB SS 4
+	- GB SS 5
+	- GB SS 6
+	- GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -175,27 +224,43 @@ proxy-groups:
     - FR Hys 9
     - FR Hys 10
 
-    - NL VLESS 1
-    - NL VLESS 2
-    - NL VLESS 3
-    - NL VLESS 4
+    - NL VMESS 1
 
  - name: BDO
    type: select
    proxies:
     - DIRECT
     - NL Tro 1
-    - NL Tro 2
-    - FR Tro 1
+	- DE Tro 1
+    - DE Tro 2
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
+	- GB Tro 4
+	- GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
+	- NL SS 5
+	- FR SS 1
+	- FR SS 2
+	- FR SS 3
+	- FR SS 4
+	- FR SS 5
+	- FR SS 6
+	- FR SS 7
+	- FR SS 8
+	- FR SS 9
+	- GB SS 1
+	- GB SS 2
+	- GB SS 3
+	- GB SS 4
+	- GB SS 5
+	- GB SS 6
+	- GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -208,27 +273,43 @@ proxy-groups:
     - FR Hys 9
     - FR Hys 10
 
-    - NL VLESS 1
-    - NL VLESS 2
-    - NL VLESS 3
-    - NL VLESS 4
+    - NL VMESS 1
 
  - name: TS
    type: select
    proxies:
     - DIRECT
     - NL Tro 1
-    - NL Tro 2
-    - FR Tro 1
+	- DE Tro 1
+    - DE Tro 2
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
+	- GB Tro 4
+	- GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
+	- NL SS 5
+	- FR SS 1
+	- FR SS 2
+	- FR SS 3
+	- FR SS 4
+	- FR SS 5
+	- FR SS 6
+	- FR SS 7
+	- FR SS 8
+	- FR SS 9
+	- GB SS 1
+	- GB SS 2
+	- GB SS 3
+	- GB SS 4
+	- GB SS 5
+	- GB SS 6
+	- GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -241,27 +322,43 @@ proxy-groups:
     - FR Hys 9
     - FR Hys 10
 
-    - NL VLESS 1
-    - NL VLESS 2
-    - NL VLESS 3
-    - NL VLESS 4
+    - NL VMESS 1
 
  - name: Brave
    type: select
    proxies:
     - DIRECT
     - NL Tro 1
-    - NL Tro 2
-    - FR Tro 1
+	- DE Tro 1
+    - DE Tro 2
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
+	- GB Tro 4
+	- GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
+	- NL SS 5
+	- FR SS 1
+	- FR SS 2
+	- FR SS 3
+	- FR SS 4
+	- FR SS 5
+	- FR SS 6
+	- FR SS 7
+	- FR SS 8
+	- FR SS 9
+	- GB SS 1
+	- GB SS 2
+	- GB SS 3
+	- GB SS 4
+	- GB SS 5
+	- GB SS 6
+	- GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -274,27 +371,93 @@ proxy-groups:
     - FR Hys 9
     - FR Hys 10
 
-    - NL VLESS 1
-    - NL VLESS 2
-    - NL VLESS 3
-    - NL VLESS 4
+    - NL VMESS 1
+	
+ - name: Gaming
+   type: select
+   proxies:
+    - DIRECT
+    - NL Tro 1
+	- DE Tro 1
+    - DE Tro 2
+    - GB Tro 1
+    - GB Tro 2
+    - GB Tro 3
+	- GB Tro 4
+	- GB Tro 5
+    
+    - NL SSR 1
+    - NL SS 1
+    - NL SS 2
+    - NL SS 3
+    - NL SS 4
+	- NL SS 5
+	- FR SS 1
+	- FR SS 2
+	- FR SS 3
+	- FR SS 4
+	- FR SS 5
+	- FR SS 6
+	- FR SS 7
+	- FR SS 8
+	- FR SS 9
+	- GB SS 1
+	- GB SS 2
+	- GB SS 3
+	- GB SS 4
+	- GB SS 5
+	- GB SS 6
+	- GB SS 7
+    
+    - FR Hys 1
+    - FR Hys 2
+    - FR Hys 3
+    - FR Hys 4
+    - FR Hys 5
+    - FR Hys 6
+    - FR Hys 7
+    - FR Hys 8
+    - FR Hys 9
+    - FR Hys 10
+
+    - NL VMESS 1
+
 
  - name: BDO Launcher
    type: select
    proxies:
     - DIRECT
     - NL Tro 1
-    - NL Tro 2
-    - FR Tro 1
+	- DE Tro 1
+    - DE Tro 2
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
+	- GB Tro 4
+	- GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
+	- NL SS 5
+	- FR SS 1
+	- FR SS 2
+	- FR SS 3
+	- FR SS 4
+	- FR SS 5
+	- FR SS 6
+	- FR SS 7
+	- FR SS 8
+	- FR SS 9
+	- GB SS 1
+	- GB SS 2
+	- GB SS 3
+	- GB SS 4
+	- GB SS 5
+	- GB SS 6
+	- GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -307,27 +470,43 @@ proxy-groups:
     - FR Hys 9
     - FR Hys 10
 
-    - NL VLESS 1
-    - NL VLESS 2
-    - NL VLESS 3
-    - NL VLESS 4
+    - NL VMESS 1
 
  - name: Discord
    type: select
    proxies:
     - DIRECT
     - NL Tro 1
-    - NL Tro 2
-    - FR Tro 1
+	- DE Tro 1
+    - DE Tro 2
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
+	- GB Tro 4
+	- GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
+	- NL SS 5
+	- FR SS 1
+	- FR SS 2
+	- FR SS 3
+	- FR SS 4
+	- FR SS 5
+	- FR SS 6
+	- FR SS 7
+	- FR SS 8
+	- FR SS 9
+	- GB SS 1
+	- GB SS 2
+	- GB SS 3
+	- GB SS 4
+	- GB SS 5
+	- GB SS 6
+	- GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -340,27 +519,43 @@ proxy-groups:
     - FR Hys 9
     - FR Hys 10
 
-    - NL VLESS 1
-    - NL VLESS 2
-    - NL VLESS 3
-    - NL VLESS 4
+    - NL VMESS 1
 
  - name: Spotify
    type: select
    proxies:
     - DIRECT
     - NL Tro 1
-    - NL Tro 2
-    - FR Tro 1
+	- DE Tro 1
+    - DE Tro 2
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
+	- GB Tro 4
+	- GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
+	- NL SS 5
+	- FR SS 1
+	- FR SS 2
+	- FR SS 3
+	- FR SS 4
+	- FR SS 5
+	- FR SS 6
+	- FR SS 7
+	- FR SS 8
+	- FR SS 9
+	- GB SS 1
+	- GB SS 2
+	- GB SS 3
+	- GB SS 4
+	- GB SS 5
+	- GB SS 6
+	- GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -373,10 +568,7 @@ proxy-groups:
     - FR Hys 9
     - FR Hys 10
 
-    - NL VLESS 1
-    - NL VLESS 2
-    - NL VLESS 3
-    - NL VLESS 4
+    - NL VMESS 1
 
 
 
@@ -387,6 +579,9 @@ rules:
  - PROCESS-NAME,BlackDesertLauncher.exe,BDO Launcher
  - PROCESS-NAME,ts3client_win64.exe,TS
  - PROCESS-NAME,brave.exe,Brave
+ - PROCESS-NAME,UbisoftGameLauncher.exe,Gaming
+ - PROCESS-NAME,XDefiant.exe,Gaming
+ - PROCESS-NAME,,Gaming
  - PROCESS-NAME,Discord.exe,Discord
  - PROCESS-NAME,Spotify.exe,Spotify
  - IP-CIDR,0.0.0.0/0,System
