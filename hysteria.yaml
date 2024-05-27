@@ -173,7 +173,7 @@ proxies:
  
  # VMESS
 
-- {name: NL VMESS 1, server: 103.214.68.57, port: 10001, type: vmess, uuid: ebca5f68-bf59-4081-e658-f158839c2f5c, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: true, ws-headers: {Host: 103.214.68.57}, udp: true}
+ - {name: NL VMESS 1, server: 103.214.68.57, port: 10001, type: vmess, uuid: ebca5f68-bf59-4081-e658-f158839c2f5c, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: true, ws-headers: {Host: 103.214.68.57}, udp: true}
 
 
 proxy-groups:
@@ -187,31 +187,31 @@ proxy-groups:
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
-	- GB Tro 4
-	- GB Tro 5
+    - GB Tro 4
+    - GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	- NL SS 5
-	- FR SS 1
-	- FR SS 2
-	- FR SS 3
-	- FR SS 4
-	- FR SS 5
-	- FR SS 6
-	- FR SS 7
-	- FR SS 8
-	- FR SS 9
-	- GB SS 1
-	- GB SS 2
-	- GB SS 3
-	- GB SS 4
-	- GB SS 5
-	- GB SS 6
-	- GB SS 7
+    - NL SS 5
+    - FR SS 1
+    - FR SS 2
+    - FR SS 3
+    - FR SS 4
+    - FR SS 5
+    - FR SS 6
+    - FR SS 7
+    - FR SS 8
+    - FR SS 9
+    - GB SS 1
+    - GB SS 2
+    - GB SS 3
+    - GB SS 4
+    - GB SS 5
+    - GB SS 6
+    - GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -236,31 +236,31 @@ proxy-groups:
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
-	- GB Tro 4
-	- GB Tro 5
+    - GB Tro 4
+    - GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	- NL SS 5
-	- FR SS 1
-	- FR SS 2
-	- FR SS 3
-	- FR SS 4
-	- FR SS 5
-	- FR SS 6
-	- FR SS 7
-	- FR SS 8
-	- FR SS 9
-	- GB SS 1
-	- GB SS 2
-	- GB SS 3
-	- GB SS 4
-	- GB SS 5
-	- GB SS 6
-	- GB SS 7
+    - NL SS 5
+    - FR SS 1
+    - FR SS 2
+    - FR SS 3
+    - FR SS 4
+    - FR SS 5
+    - FR SS 6
+    - FR SS 7
+    - FR SS 8
+    - FR SS 9
+    - GB SS 1
+    - GB SS 2
+    - GB SS 3
+    - GB SS 4
+    - GB SS 5
+    - GB SS 6
+    - GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -285,31 +285,31 @@ proxy-groups:
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
-	- GB Tro 4
-	- GB Tro 5
+    - GB Tro 4
+    - GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	- NL SS 5
-	- FR SS 1
-	- FR SS 2
-	- FR SS 3
-	- FR SS 4
-	- FR SS 5
-	- FR SS 6
-	- FR SS 7
-	- FR SS 8
-	- FR SS 9
-	- GB SS 1
-	- GB SS 2
-	- GB SS 3
-	- GB SS 4
-	- GB SS 5
-	- GB SS 6
-	- GB SS 7
+    - NL SS 5
+    - FR SS 1
+    - FR SS 2
+    - FR SS 3
+    - FR SS 4
+    - FR SS 5
+    - FR SS 6
+    - FR SS 7
+    - FR SS 8
+    - FR SS 9
+    - GB SS 1
+    - GB SS 2
+    - GB SS 3
+    - GB SS 4
+    - GB SS 5
+    - GB SS 6
+    - GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -334,31 +334,31 @@ proxy-groups:
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
-	- GB Tro 4
-	- GB Tro 5
+    - GB Tro 4
+    - GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	- NL SS 5
-	- FR SS 1
-	- FR SS 2
-	- FR SS 3
-	- FR SS 4
-	- FR SS 5
-	- FR SS 6
-	- FR SS 7
-	- FR SS 8
-	- FR SS 9
-	- GB SS 1
-	- GB SS 2
-	- GB SS 3
-	- GB SS 4
-	- GB SS 5
-	- GB SS 6
-	- GB SS 7
+    - NL SS 5
+    - FR SS 1
+    - FR SS 2
+    - FR SS 3
+    - FR SS 4
+    - FR SS 5
+    - FR SS 6
+    - FR SS 7
+    - FR SS 8
+    - FR SS 9
+    - GB SS 1
+    - GB SS 2
+    - GB SS 3
+    - GB SS 4
+    - GB SS 5
+    - GB SS 6
+    - GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -383,31 +383,31 @@ proxy-groups:
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
-	- GB Tro 4
-	- GB Tro 5
+    - GB Tro 4
+    - GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	- NL SS 5
-	- FR SS 1
-	- FR SS 2
-	- FR SS 3
-	- FR SS 4
-	- FR SS 5
-	- FR SS 6
-	- FR SS 7
-	- FR SS 8
-	- FR SS 9
-	- GB SS 1
-	- GB SS 2
-	- GB SS 3
-	- GB SS 4
-	- GB SS 5
-	- GB SS 6
-	- GB SS 7
+    - NL SS 5
+    - FR SS 1
+    - FR SS 2
+    - FR SS 3
+    - FR SS 4
+    - FR SS 5
+    - FR SS 6
+    - FR SS 7
+    - FR SS 8
+    - FR SS 9
+    - GB SS 1
+    - GB SS 2
+    - GB SS 3
+    - GB SS 4
+    - GB SS 5
+    - GB SS 6
+    - GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -433,31 +433,31 @@ proxy-groups:
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
-	- GB Tro 4
-	- GB Tro 5
+    - GB Tro 4
+    - GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	- NL SS 5
-	- FR SS 1
-	- FR SS 2
-	- FR SS 3
-	- FR SS 4
-	- FR SS 5
-	- FR SS 6
-	- FR SS 7
-	- FR SS 8
-	- FR SS 9
-	- GB SS 1
-	- GB SS 2
-	- GB SS 3
-	- GB SS 4
-	- GB SS 5
-	- GB SS 6
-	- GB SS 7
+    - NL SS 5
+    - FR SS 1
+    - FR SS 2
+    - FR SS 3
+    - FR SS 4
+    - FR SS 5
+    - FR SS 6
+    - FR SS 7
+    - FR SS 8
+    - FR SS 9
+    - GB SS 1
+    - GB SS 2
+    - GB SS 3
+    - GB SS 4
+    - GB SS 5
+    - GB SS 6
+    - GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -482,31 +482,31 @@ proxy-groups:
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
-	- GB Tro 4
-	- GB Tro 5
+    - GB Tro 4
+    - GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	- NL SS 5
-	- FR SS 1
-	- FR SS 2
-	- FR SS 3
-	- FR SS 4
-	- FR SS 5
-	- FR SS 6
-	- FR SS 7
-	- FR SS 8
-	- FR SS 9
-	- GB SS 1
-	- GB SS 2
-	- GB SS 3
-	- GB SS 4
-	- GB SS 5
-	- GB SS 6
-	- GB SS 7
+    - NL SS 5
+    - FR SS 1
+    - FR SS 2
+    - FR SS 3
+    - FR SS 4
+    - FR SS 5
+    - FR SS 6
+    - FR SS 7
+    - FR SS 8
+    - FR SS 9
+    - GB SS 1
+    - GB SS 2
+    - GB SS 3
+    - GB SS 4
+    - GB SS 5
+    - GB SS 6
+    - GB SS 7
     
     - FR Hys 1
     - FR Hys 2
@@ -531,31 +531,31 @@ proxy-groups:
     - GB Tro 1
     - GB Tro 2
     - GB Tro 3
-	- GB Tro 4
-	- GB Tro 5
+    - GB Tro 4
+    - GB Tro 5
     
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	- NL SS 5
-	- FR SS 1
-	- FR SS 2
-	- FR SS 3
-	- FR SS 4
-	- FR SS 5
-	- FR SS 6
-	- FR SS 7
-	- FR SS 8
-	- FR SS 9
-	- GB SS 1
-	- GB SS 2
-	- GB SS 3
-	- GB SS 4
-	- GB SS 5
-	- GB SS 6
-	- GB SS 7
+    - NL SS 5
+    - FR SS 1
+    - FR SS 2
+    - FR SS 3
+    - FR SS 4
+    - FR SS 5
+    - FR SS 6
+    - FR SS 7
+    - FR SS 8
+    - FR SS 9
+    - GB SS 1
+    - GB SS 2
+    - GB SS 3
+    - GB SS 4
+    - GB SS 5
+    - GB SS 6
+    - GB SS 7
     
     - FR Hys 1
     - FR Hys 2
