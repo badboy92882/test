@@ -85,22 +85,22 @@ proxies:
 
  # Trojan
  
- - {name: NL Tro 1, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: true, udp: true}
+ - {name: NL Tro 1, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: https://www.youtube.com.sa/, skip-cert-verify: true, udp: true}
 
- - {name: DE Tro 1, server: 3.78.31.110, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+ - {name: DE Tro 1, server: 3.78.31.110, port: 22222, type: trojan, password: telegram-id-directvpn, sni: https://www.youtube.com.sa/, skip-cert-verify: true, udp: true}
  
- - {name: DE Tro 2, server: 18.192.44.234, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+ - {name: DE Tro 2, server: 18.192.44.234, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: https://www.youtube.com.sa/, skip-cert-verify: true, udp: true}
 
 
- - {"name":"GB Tro 1","type":"trojan","server":"104.16.159.6","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+ - {"name":"GB Tro 1","type":"trojan","server":"104.16.159.6","port":443,"udp":true,"password":"669d0ac7b5b64ebbb1abb75d5d540a5c","sni":"https://www.youtube.com.sa/","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
  
- - {"name":"GB Tro 2","type":"trojan","server":"104.16.159.4","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+ - {"name":"GB Tro 2","type":"trojan","server":"104.16.159.4","port":443,"udp":true,"password":"b4e8771997c94732acbc9ec4d19c2589","sni":"https://www.youtube.com.sa/","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
  
- - {"name":"GB Tro 3","type":"trojan","server":"104.17.147.77","port":443,"udp":true,"password":"71409d3e488548e8bb076d229778f008","sni":"bangladeshipatri.com","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
+ - {"name":"GB Tro 3","type":"trojan","server":"104.17.147.77","port":443,"udp":true,"password":"71409d3e488548e8bb076d229778f008","sni":"https://www.youtube.com.sa/","skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/6b777a91","headers":{"host":"bangladeshipatri.com"}}}
 
- - {name: GB Tro 4, server: 35.178.70.239, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+ - {name: GB Tro 4, server: 35.178.70.239, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: https://www.youtube.com.sa/, skip-cert-verify: true, udp: true}
  
- - {name: GB Tro 5, server: 18.175.98.5, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+ - {name: GB Tro 5, server: 18.175.98.5, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: https://www.youtube.com.sa/, skip-cert-verify: true, udp: true}
 
 
 
@@ -174,7 +174,7 @@ proxies:
  
  # VMESS
 
- - {name: NL VMESS 1, server: 103.214.68.57, port: 10001, type: vmess, uuid: ebca5f68-bf59-4081-e658-f158839c2f5c, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: true, ws-headers: {Host: 103.214.68.57}, udp: true}
+ - {name: NL VMESS 1, server: 103.214.68.57, port: 10001, type: vmess, uuid: ebca5f68-bf59-4081-e658-f158839c2f5c, alterId: 0, cipher: auto, skip-cert-verify: true, network: tcp, ws-path: /, tls: true, ws-headers: {Host: 103.214.68.57}, udp: true, sni: https://www.youtube.com/}
 
 
 proxy-groups:
