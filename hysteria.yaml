@@ -144,15 +144,15 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	  - FR Tro 1
-	  - FR Tro 2
+    - FR Tro 1
+    - FR Tro 2
     - DE Tro 1
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	  - NL SS 5
+    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -185,15 +185,15 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	  - FR Tro 1
-	  - FR Tro 2
+    - FR Tro 1
+    - FR Tro 2
     - DE Tro 1
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	  - NL SS 5
+    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -226,15 +226,15 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	  - FR Tro 1
-	  - FR Tro 2
+    - FR Tro 1
+    - FR Tro 2
     - DE Tro 1
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	  - NL SS 5
+    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -267,15 +267,15 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	  - FR Tro 1
-	  - FR Tro 2
+    - FR Tro 1
+    - FR Tro 2
     - DE Tro 1
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	  - NL SS 5
+    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -308,15 +308,15 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	  - FR Tro 1
-	  - FR Tro 2
+    - FR Tro 1
+    - FR Tro 2
     - DE Tro 1
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	  - NL SS 5
+    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -350,15 +350,15 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	  - FR Tro 1
-	  - FR Tro 2
+    - FR Tro 1
+    - FR Tro 2
     - DE Tro 1
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	  - NL SS 5
+    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -391,15 +391,15 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	  - FR Tro 1
-	  - FR Tro 2
+    - FR Tro 1
+    - FR Tro 2
     - DE Tro 1
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	  - NL SS 5
+    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
@@ -432,15 +432,15 @@ proxy-groups:
    proxies:
     - DIRECT
     - NL Tro 1
-	  - FR Tro 1
-	  - FR Tro 2
+    - FR Tro 1
+    - FR Tro 2
     - DE Tro 1
     - NL SSR 1
     - NL SS 1
     - NL SS 2
     - NL SS 3
     - NL SS 4
-	  - NL SS 5
+    - NL SS 5
     - FR SS 1
     - FR SS 2
     - FR SS 3
