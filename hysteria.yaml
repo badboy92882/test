@@ -369,7 +369,55 @@ proxy-groups:
     - FR Hys 10
 
     - NL VMESS 1
+
+   - name: Tera
+   type: select
+   proxies:
+    - DIRECT
+    - NL Tro 1
+    - DE Tro 1
+    - DE Tro 2
+    - GB Tro 1
+    - GB Tro 2
+    - GB Tro 3
+    - GB Tro 4
+    - GB Tro 5
     
+    - NL SSR 1
+    - NL SS 1
+    - NL SS 2
+    - NL SS 3
+    - NL SS 4
+    - FR SS 1
+    - FR SS 2
+    - FR SS 3
+    - FR SS 4
+    - FR SS 5
+    - FR SS 6
+    - FR SS 7
+    - FR SS 8
+    - FR SS 9
+    - GB SS 1
+    - GB SS 2
+    - GB SS 3
+    - GB SS 4
+    - GB SS 5
+    - GB SS 6
+    - GB SS 7
+    
+    - FR Hys 1
+    - FR Hys 2
+    - FR Hys 3
+    - FR Hys 4
+    - FR Hys 5
+    - FR Hys 6
+    - FR Hys 7
+    - FR Hys 8
+    - FR Hys 9
+    - FR Hys 10
+
+    - NL VMESS 1
+
  - name: Gaming
    type: select
    proxies:
@@ -574,7 +622,7 @@ rules:
  - PROCESS-NAME,brave.exe,Brave
  - PROCESS-NAME,UbisoftGameLauncher.exe,Gaming
  - PROCESS-NAME,XDefiant.exe,Gaming
- #- PROCESS-NAME,,Gaming
+ - PROCESS-NAME,TERA.exe,Tera
  - PROCESS-NAME,Discord.exe,Discord
  - PROCESS-NAME,Spotify.exe,Spotify
  - IP-CIDR,0.0.0.0/0,System
