@@ -370,7 +370,7 @@ proxy-groups:
 
     - NL VMESS 1
 
-   - name: Tera
+ - name: Tera
    type: select
    proxies:
     - DIRECT
