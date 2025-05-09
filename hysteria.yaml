@@ -19,9 +19,9 @@ proxies:
 
  # Trojan
  
- - {"alterId":-1,"country":"🇫🇷FR","name":"FR Tro 1","password":"ba43b064-03f6-4b80-9ba6-f96e491cf2eb","port":443,"server":"fr-full.privateip.net","skip-cert-verify":true,"type":"trojan","udp":true,"sni":"https://www.youtube.com/"}
+ - {alterId: -1, country: 🇫🇷FR, name: FR Tro 1, password: ba43b064-03f6-4b80-9ba6-f96e491cf2eb, port: 443, server: fr-full.privateip.net, skip-cert-verify: true, type: trojan, udp: true, sni: https://www.youtube.com/}
 
- - {"alterId":-1,"name":"FR Tro 2","password":"638573e0-09d0-11ef-b785-1239d0255272","port":443,"server":"51.210.182.170","skip-cert-verify":true,"type":"trojan","udp":true,"sni":"https://www.youtube.com/"}
+ - {alterId: -1, name: FR Tro 2, password: 638573e0-09d0-11ef-b785-1239d0255272, port: 443, server: 51.210.182.170, skip-cert-verify: true, type: trojan, udp: true, sni: https://www.youtube.com/}
 
  - {name: FR Tro 3, server: 51.68.13.106, port: 1935, type: trojan, password: FiSo7J6vfS, sni: https://www.youtube.com/, skip-cert-verify: false}
 
@@ -134,7 +134,7 @@ proxy-groups:
     - FR VMESS 2
     - DE VMESS 1
 
-- name: Arc
+ - name: Arc
    type: select
    proxies:
     - DIRECT
@@ -225,7 +225,6 @@ proxy-groups:
     - FR VMESS 1
     - FR VMESS 2
     - DE VMESS 1
-
 
  - name: BDO Launcher
    type: select
