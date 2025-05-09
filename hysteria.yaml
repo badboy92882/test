@@ -21,23 +21,21 @@ proxies:
  
  - {alterId: -1, country: 🇫🇷FR, name: FR Tro 1, password: ba43b064-03f6-4b80-9ba6-f96e491cf2eb, port: 443, server: fr-full.privateip.net, skip-cert-verify: true, type: trojan, udp: true, sni: https://www.youtube.com/}
 
- - {alterId: -1, name: FR Tro 2, password: 638573e0-09d0-11ef-b785-1239d0255272, port: 443, server: 51.210.182.170, skip-cert-verify: true, type: trojan, udp: true, sni: https://www.youtube.com/}
+ - {alterId: -1, name: FR Tro 2, password: 638573e0-09d0-11ef-b785-1239d0255272, port: 443, server: 51.210.182.170, skip-cert-verify: true, type: trojan, udp: true, sni: https://www.youtube.com/ }
 
- - {name: FR Tro 3, server: 51.68.13.106, port: 1935, type: trojan, password: FiSo7J6vfS, sni: https://www.youtube.com/, skip-cert-verify: false}
+ - {'name': 'FR Tro 3', 'server': '51.68.13.106', 'port': 1935, 'type': 'trojan', 'password': 'FiSo7J6vfS', 'sni': 'x1fr-ovh.devefun.net', 'skip-cert-verify': False}
 
- - {name: FR Tro 4, server: 51.68.13.106, port: 1935, type: trojan, password: FiSo7J6vfS, sni: https://www.youtube.com/, skip-cert-verify: False}
+ - {'name': 'DE Tro 1', 'server': '3.127.213.136', 'port': 22222, 'type': 'trojan', 'password': 'telegram-id-privatevpns', 'sni': 'trojan.burgerip.co.uk', 'skip-cert-verify': False}
 
- - {name: DE Tro 1, server: 3.127.213.136, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: https://www.youtube.com/, skip-cert-verify: false}
+ - {'name': 'DE Tro 2', 'server': 'es-full.privateip.net', 'port': 443, 'type': 'trojan', 'password': '3240d72a-1373-4566-9c6c-68524e4b13fc', 'skip-cert-verify': False}
 
- - {name: DE Tro 2, server: es-full.privateip.net, port: 443, type: trojan, password: 3240d72a-1373-4566-9c6c-68524e4b13fc, sni: https://www.youtube.com/, skip-cert-verify: False}
+ - {'name': 'DE Tro 3', 'server': 'fr-full.privateip.net', 'port': 443, 'type': 'trojan', 'password': '6c64e6f9-a76c-49eb-96d2-bf8b1afee4a3', 'skip-cert-verify': False}
 
- - {name: DE Tro 3, server: fr-full.privateip.net, port: 443, type: trojan, password: 6c64e6f9-a76c-49eb-96d2-bf8b1afee4a3, sni: https://www.youtube.com/, skip-cert-verify: False}
+ - {'name': 'DE Tro 4', 'server': 'de-full.privateip.net', 'port': 443, 'type': 'trojan', 'password': 'd86c421f-dbfe-4507-a864-f8f9e29d80e4', 'skip-cert-verify': False}
 
- - {name: DE Tro 4, server: de-full.privateip.net, port: 443, type: trojan, password: d86c421f-dbfe-4507-a864-f8f9e29d80e4', sni: https://www.youtube.com/, skip-cert-verify: False}
+ - {'name': 'NL Tro 1', 'server': 'nl-full.privateip.net', 'port': 443, 'type': 'trojan', 'password': 'a906625d-446c-468f-9e26-1d15981fa0e9', 'skip-cert-verify': False}
 
- - {name: NL Tro 1, server: nl-full.privateip.net, port: 443, type: trojan, password: a906625d-446c-468f-9e26-1d15981fa0e9, sni: https://www.youtube.com/, skip-cert-verify: False}
-
- - {name: NL Tro 2, server: nl2-full.privateip.net, port: 443, type: trojan, password: c378f9c9-733c-4a28-af47-cfa8b063a7f6, sni: https://www.youtube.com/, skip-cert-verify: False}
+ - {'name': 'NL Tro 2', 'server': 'nl2-full.privateip.net', 'port': 443, 'type': 'trojan', 'password': 'c378f9c9-733c-4a28-af47-cfa8b063a7f6', 'skip-cert-verify': False}
 
  # SS
 
@@ -72,7 +70,6 @@ proxy-groups:
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
-    - FR Tro 4
     - DE Tro 1
     - DE Tro 2
     - DE Tro 3
@@ -95,7 +92,6 @@ proxy-groups:
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
-    - FR Tro 4
     - DE Tro 1
     - DE Tro 2
     - DE Tro 3
@@ -118,7 +114,6 @@ proxy-groups:
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
-    - FR Tro 4
     - DE Tro 1
     - DE Tro 2
     - DE Tro 3
@@ -141,7 +136,6 @@ proxy-groups:
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
-    - FR Tro 4
     - DE Tro 1
     - DE Tro 2
     - DE Tro 3
@@ -164,7 +158,6 @@ proxy-groups:
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
-    - FR Tro 4
     - DE Tro 1
     - DE Tro 2
     - DE Tro 3
@@ -187,7 +180,6 @@ proxy-groups:
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
-    - FR Tro 4
     - DE Tro 1
     - DE Tro 2
     - DE Tro 3
@@ -210,7 +202,6 @@ proxy-groups:
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
-    - FR Tro 4
     - DE Tro 1
     - DE Tro 2
     - DE Tro 3
@@ -233,7 +224,6 @@ proxy-groups:
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
-    - FR Tro 4
     - DE Tro 1
     - DE Tro 2
     - DE Tro 3
@@ -256,7 +246,6 @@ proxy-groups:
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
-    - FR Tro 4
     - DE Tro 1
     - DE Tro 2
     - DE Tro 3
@@ -279,7 +268,6 @@ proxy-groups:
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
-    - FR Tro 4
     - DE Tro 1
     - DE Tro 2
     - DE Tro 3
