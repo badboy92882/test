@@ -67,6 +67,8 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
+    - NL Tro 1
+    - NL Tro 2
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
@@ -89,6 +91,8 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
+    - NL Tro 1
+    - NL Tro 2
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
@@ -111,6 +115,8 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
+    - NL Tro 1
+    - NL Tro 2
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
@@ -133,6 +139,8 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
+    - NL Tro 1
+    - NL Tro 2
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
@@ -155,6 +163,8 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
+    - NL Tro 1
+    - NL Tro 2
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
@@ -177,6 +187,8 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
+    - NL Tro 1
+    - NL Tro 2
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
@@ -199,6 +211,8 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
+    - NL Tro 1
+    - NL Tro 2
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
@@ -221,6 +235,8 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
+    - NL Tro 1
+    - NL Tro 2
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
@@ -243,6 +259,8 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
+    - NL Tro 1
+    - NL Tro 2
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
@@ -265,6 +283,8 @@ proxy-groups:
    type: select
    proxies:
     - DIRECT
+    - NL Tro 1
+    - NL Tro 2
     - FR Tro 1
     - FR Tro 2
     - FR Tro 3
